@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    background-color:  rgba(255, 255, 255, 0.712);
+    text-align: center;
+}
+
+.footer p{
+    font-size: 20px;
+}

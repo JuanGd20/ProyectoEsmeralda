@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.todo{
+    background-image: url(../img/nuevofondo2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenido{
+    background-color:  #ffffffad;;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.text{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.contacto{
+    background-color: #ffffffb6;
+    border: 2px solid black;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+}

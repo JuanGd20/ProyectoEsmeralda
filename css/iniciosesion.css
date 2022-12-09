@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: cursive;
+}
+
+.todo{
+    background-image: url(../img/nuevofondo2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.form-box{
+    width: 370px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.button-box{
+    width: 240px;
+    margin: 30px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #1c2331;
+    border-radius: 30px;
+}
+
+.botones{
+    padding: 10px 22px;
+    cursor: pointer;
+    background: transparent;
+    border: 0px;
+    outline: none;
+    position: relative;
+}
+
+#elegir{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 120px;
+    height: 100%;
+    background-image: linear-gradient( to right, rgba(63, 81, 181, 0.7), rgba(0, 188, 212, 0.7));
+    border-radius: 30px;
+    transition: 0.8s;
+}
+
+.continuar{
+    margin: 35px auto;
+    text-align: center;
+}
+
+.face{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 12px 9px white;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.input{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.8s;
+}
+
+.texto{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid #017bab;
+    outline: none;
+    background: transparent;
+}
+
+.acceso{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient( to right, rgba(63, 81, 181, 0.7), rgba(0, 188, 212, 0.7));
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+
+.acceso a{
+    text-decoration: none;
+}
+
+.check{
+    margin: 30px 10px 30px 0;
+}
+
+span{
+    color: #757575;
+    font-size: 12px;
+    bottom: 64px;
+    position: absolute;
+}
+
+#login{
+    left: 50px;
+}
+
+#registro{
+    left: 450px;
+}
+
+

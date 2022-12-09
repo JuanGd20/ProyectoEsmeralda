@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado{
+    background-color: rgba(255, 255, 255, 0.582);
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+
+.encabezado > div{
+    height: 100px;
+}
+
+.iniciosesion{
+    text-align: center;
+    justify-content: center;
+}
+
+.iniciosesion > div{
+    margin-top: 35px;
+    margin-right: 5px;
+}
+
+.iniciosesion a{
+    text-decoration: none;
+    font-family: cursive;
+    color: black;
+}
+
+.icono{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}

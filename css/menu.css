@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgba(175, 194, 7, 0.61);
+    margin-top: 30px;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    margin: 30px;
+}

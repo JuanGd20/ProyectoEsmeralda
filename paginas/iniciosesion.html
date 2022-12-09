@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/iniciosesion.css">
+</head>
+<body>
+    <div class="todo">
+        <div class="encabezado">
+            <div class="mariposa">
+                <img class="icono" src="../img/icono.png" alt="">
+            </div>
+            <div class="titulo">
+                <h1>Centro Esmeralda</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="elegir"></div>
+                    <button type="button" class="botones" onclick="login()">Iniciar Sesión</button>
+                    <button type="button" class="botones" onclick="registro()">Registrese</button>
+                </div>
+                <div class="continuar">
+                    <a href="https://www.facebook.com/?stype=lo&jlou=AffkF6d6miVietZqM9verarlLV-xzKjf66E9JHFEoFqy2sCGMxIq7eaSC0ojSEXXvENLgX20lKHKQ0s3hgrmS7rhR2cDzn9Ui1PenavlKkfHKA&smuh=56277&lh=Ac-b9Tivsw7JWR1seIk"><img class="face" src="../img/logofacebook.png" alt="icono-facebook"></a>
+                    <a href="https://accounts.google.com/AddSession/identifier?hl=es-419&continue=https%3A%2F%2Fmail.google.com&service=mail&ec=GAlAFw&authuser=0&flowName=GlifWebSignIn&flowEntry=AddSession"><img class="face" src="../img/logogmail.png" alt="icono-gmail"></a>
+                </div>
+                <form id="login" class="input">
+                    <input type="text" class="texto" placeholder="Usuario" required>
+                    <input type="password" class="texto" placeholder="Contraseña" required>
+                    <input type="checkbox" class="check"><span>Recordar Contraseña</span>
+                    <button type="submit" class="acceso">
+                        <a href="../paginas/compraresmeral.html">Acceder</a>
+                    </button>
+                </form>
+                <form id="registro" class="input">
+                    <input type="text" class="texto" placeholder="Nombres" required>
+                    <input type="text" class="texto" placeholder="Apellidos" required>
+                    <input type="email" class="texto" placeholder="Correo" required>
+                    <input type="password" class="texto" placeholder="Contraseña" required>
+                    <input type="checkbox" class="check"><span>Acepto los términos y condiciones</span>
+                    <button type="submit" class="acceso">
+                        <a href="../paginas/compraresmeral.html">Registrarse</a>
+                    </button>
+                </form>     
+            </div>
+        </div>
+        <script>
+            var x = document.getElementById("login")
+            var y = document.getElementById("registro")
+            var z = document.getElementById("elegir")
+    
+            function login(){
+                x.style.left="50px";
+                y.style.left="450px";
+                z.style.left="0px";
+            }
+    
+            function registro(){
+                x.style.left="-400px";
+                y.style.left="50px";
+                z.style.left="120px";
+            }
+        </script>
+        <footer class="footer">
+            <p>Hecho por Iván Acevedo &nbsp; &nbsp;|&nbsp; Todos los derechos reservados de copyrigth</p>
+            <p>Análisis y Desarrollo de Software &nbsp; &nbsp;|&nbsp; Ficha 2501469</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: cursive;
+}
+
+.todo{
+    background-image: url(../img/nuevofondo2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    height: auto;
+    margin-top: 15px;
+    margin-block-end: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}   
+
+.texto{
+    border: 2px solid black;
+    height: 110px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-block-end: 10px;
+}
+
+.image{
+    height: 110px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-block-end: 10px;   
+}
+
+.esmeralda{
+    background-color: #ffffff93;
+    flex: 20%;
+    height: 120px;
+    display: grid;
+    justify-content: center;
+    margin: 3px 3px;
+    border-radius: 20px;
+    margin-block-end: 10px;
+    grid-template-columns: 30% 60%;
+    gap: 10px;
+}
+
+.comprar{
+    background-color: rgb(66, 133, 22);
+    margin-left: 40%;
+    border-radius: 10px;
+}
+
+.esmeralda > div{
+    margin-top: 5px;
+    margin-block-end: 5px;
+}
+
+.esmeralda > div p{
+    text-align: left;
+    margin-left: 5px;
+}
+
+.imagenes{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media (max-width: 850px){
+    .esmeralda{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 851px) and (max-width: 1800px){
+    .esmeralda{
+        flex: 100%;
+        max-width: 30%;
+    }
+}
